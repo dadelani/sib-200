@@ -1,5 +1,3 @@
-pytorch_lightning
-scikit-learn
 evaluate
 pandas
 numpy

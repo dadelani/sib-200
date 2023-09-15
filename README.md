@@ -26,6 +26,8 @@ cd code/
 sh xlmr_all.sh
 ```
 
+## BibTeX entry and citation info
+
 
 ```
 @misc{adelani2023sib200,

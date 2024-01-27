@@ -1,0 +1,14 @@
+travel
+politics
+science
+sports
+technology
+health
+nature
+entertainment
+geography
+business
+disasters
+crime
+education
+religion

@@ -22,12 +22,16 @@ def get_dict_index_text(df):
 
 #lang = 'kik_Latn'
 
-list_langs = set([lang.split('.')[0] for lang in os.listdir('data/raw/')])
+list_langs = set([lang.split('.')[0] for lang in os.listdir('data/raw/')]+['nqo_Nkoo'])
 
 for lang in list_langs:
     print(lang)
-    dev = read_text('data/raw/'+lang+'.dev')
-    devtest = read_text('data/raw/'+lang+'.devtest')
+    if lang=='nqo_Nkoo':
+        dev = read_text('data/nko_flores/'+lang+'.dev')
+        devtest = read_text('data/nko_flores/'+lang+'.devtest')
+    else:
+        dev = read_text('data/raw/' + lang + '.dev')
+        devtest = read_text('data/raw/' + lang + '.devtest')
 
     #print(len(dev), len(devtest))
 

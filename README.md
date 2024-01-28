@@ -19,6 +19,9 @@ pip install -r code/requirements.txt
 ```
 sh get_flores_and_annotate.sh
 ```
+or
+
+Download it from huggingface dataset: [Davlan/sib200](https://huggingface.co/datasets/Davlan/sib200)
 
 ### Run our baseline model using XLM-R
 ```

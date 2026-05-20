@@ -18,13 +18,16 @@ do
       cp -r $filename data/raw/
       done
   done
-cp -r flores200_dataset/dev/deu_Latn.dev data/raw/
-cp -r flores200_dataset/devtest/deu_Latn.devtest data/raw/
+
+#cp -r flores200_dataset/dev/deu_Latn.dev data/raw/
+#cp -r flores200_dataset/devtest/deu_Latn.devtest data/raw/
 
 
 # delete archive and unused folders
 rm -rf flores*
 
-python create_sib_data.py
+#python create_sib_data.py
+python create_sib_data14.py
+
 
 rm -rf data/raw
